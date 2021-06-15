@@ -174,10 +174,12 @@ line-height: 1.7;
 @media screen and (max-width: 320px) {
   /* comes into effect for screens less than or equal to 320 pixels */
   .static {
-    width: 200vh; ;
+    width: 100vh; 
+      
   }
     .intro{
-        width:200vh;
+        background: url("pink.jpeg")no-repeat center;
+         height: 100vh; 
     }
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
